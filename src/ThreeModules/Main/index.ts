@@ -34,7 +34,4 @@ class Main3D{
         this.renderer.render( this.scene, this.camera );
     }
 }
-$(()=>{
-    console.log($('body').offset())
-})
 export default new Main3D 
